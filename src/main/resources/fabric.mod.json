@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "gl1282",
+  "version": "${version}",
+  "name": "gl1282",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/liams/gl1282"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gl1282/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "me.mqrshie.gl1282.Gl1282"
+    ]
+  },
+  "mixins": [
+    "gl1282.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
